@@ -1,0 +1,501 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BODA ABHISHEK NAIK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header>
+        <div>
+            <h1>Explore the World</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#Destinations">Destinations</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Body-->
+                <div class="hero">
+                    <div class="hero-text">
+                        <h2>Your Adventure Awaits</h2>
+                            <br>
+                        <a href="#destinations" class="cta-button">Explore Now</a>
+                    </div>
+                </div>
+
+    <!-- Destinations Section -->
+    <div  class="section">
+            <h2>Popular Destinations</h2>
+
+        <div class="destination-grid">
+                <div class="destination">
+                    <img src="images/13.jpg" alt="Paris">
+                    <h3>Vietnam</h3>
+                    <p>
+                        The children, dressed in traditional colorful clothing, stand together, showcasing their cultural heritage.
+                        Vietnam is a fascinating country with rich history and vibrant culture. Tourists can explore ancient temples, 
+                        stunning rice paddies, bustling cities, and breathtaking natural landscapes.
+                        Here are some things you might want to tell the tourists about the place
+                    </p>
+                </div>
+
+                <div class="destination">
+                    <img src="images/5.jpg" alt="Bali">
+                    <h3>Bali</h3>
+                    <p>"This island is a paradise! The flight views were incredible, 
+                        and the crystal-clear water was even better in person. We loved the snorkeling spots – 
+                        the marine life was amazing. The island vibe was so peaceful, and it was the perfect place
+                         to unwind and soak up the sun. Highly recommend visiting for anyone looking for a mix of adventure and relaxation!"
+                    </p>
+                </div>
+
+                <div class="destination">
+                    <img src="images/3.jpg" alt="Tokyo">
+                    <h3>Tokyo</h3>
+                    <p>Welcome to a hidden gem in the heart of the forest! This beautiful location is perfect for nature lovers
+                         and photography enthusiasts. Here, you’ll find lush greenery, peaceful surroundings, and charming local culture.
+                          The forest offers endless spots for amazing photos, from vibrant landscapes to authentic portraits of local life.
+                    </p>
+                </div>
+
+                <div class='destination'>
+                    <img src='images/7.jpg'>
+                    <h3>London</h3>
+                    <p>This destination is a breathtaking paradise, with a majestic mountain surrounded by clear, serene water –
+                        perfect for boating and relaxation! Imagine gliding across the water with a view of the towering mountain, 
+                        reflected beautifully in the calm lake. It’s an ideal spot for adventure, photography, and peaceful escapes. 
+                    </p>
+                </div>
+
+                <div class='destination'>
+                    <img src='images/8.jpg'>
+                    <h3> Pakal Lake</h3>
+                    <p> 
+                        The image shows a wooden boat on a tranquil lake surrounded by majestic mountains. The water is calm and reflects 
+                        the sky and the mountain peaks, creating a serene and picturesque scene. The boat is positioned in the center of the frame,
+                        with the mountains towering over it, creating a sense of scale and awe.
+                    </p>
+                </div>
+
+                <div class='destination'>
+                    <img src='images/10.jpg'>
+                    <h3>Warangal</h3>
+                    <p>
+                        This landscape is perfect for travelers seeking adventure and stunning natural beauty. Imagine the feeling of standing on a glacier,
+                         surrounded by towering ice formations, and feeling the crisp air on your face. The reflection in the water adds another layer of depth
+                          and wonder to the scene.
+                    </p>
+                </div>
+
+                <div class='destination'>
+                    <img src='images/14.jpg'>
+                    <h3>Blue Lagoon</h3>
+                    <p>
+                        The  Blue Lagoon in Iceland, a geothermal spa known for its milky-blue waters and stunning natural beauty. 
+                        The water is rich in minerals, and the steam rising from the lagoon adds to its ethereal atmosphere. People are enjoying the warm waters,
+                         and the surrounding black rocks create a striking contrast against the bright blue.
+                    </p>
+                </div>
+
+                <div class='destination'>
+                    <img src='images/16.jpg'>
+                    <h3>Canyon</h3>
+                    <p>
+                        The  Canyon is a breathtaking natural wonder located in Iceland. This dramatic canyon is known for its towering rock walls,
+                         lush green moss, and winding river that flows through its depths. The canyon is a popular hiking destination, offering stunning views
+                          from various vantage points along its rim. 
+                    </p>
+                </div>
+
+                <div class='destination'>
+                    <img src='images/20.jpg'>
+                    <h3>Paris</h3>
+                    <p>
+                        This image captures the iconic cityscape of Paris, with the Eiffel Tower standing tall in the background.
+                         The photo showcases the charming Parisian architecture, featuring quaint buildings with intricate details.
+                        The Seine River winds its way through the city, creating a serene and picturesque scene. People can be seen                         
+                    </p>
+                </div>
+
+                
+        </div>
+    </div>
+
+
+    <!-- Services Section -->
+    <div id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service">
+                <h3>Flight Booking</h3>
+                <p>We book flights to your dream destinations.</p>
+            </div>
+            <div class="service">
+                <h3>Hotel Reservations</h3>
+                <p>Comfortable and affordable accommodation.</p>
+            </div>
+            <div class="service">
+                <h3>Tour Packages</h3>
+                <p>Exclusive packages for groups and individuals.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contactForm" onsubmit="return validateForm()">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
